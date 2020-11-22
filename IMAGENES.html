@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+  <h2>Galeria de Imagenes</h2>
+  <h4>Imagenes de Catamarca en sus distintos tonos de verdes</h4>
+  <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="IMAGENES/peatonal.jpg">
+      <img src="IMAGENES/peatonal.jpg" alt="peatonal-Rivadavia" width="600" height="400">
+    </a>
+    <div class="desc">Peatonal Rivadavia</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="IMAGENES/piedrapomez.jpg">
+      <img src="IMAGENES/piedrapomez.jpg" alt="Campo de Piedra Pomez" width="600" height="400">
+    </a>
+    <div class="desc"> Campo de Piedra Poméz</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="IMAGENES/lasjuntas.jpg">
+      <img src="IMAGENES/lasjuntas.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Localidad de las Juntas</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="IMAGENES/eljumeal.jpg">
+      <img src="IMAGENES/eljumeal.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Vista noctura Dique El Jumeal</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>Catamarca, se trata de la provincia de los seismiles, los volcanes más altos del planeta, que fascinan a los
+  andinistas de medio mundo; del impactante y semidesconocido Campo de Piedra Pómez; de la Ruta del Adobe, una joyita de
+  herencia colonial; de las termas de Fiambalá y los pueblitos escondidos de la Puna, donde son compañeras constantes las
+  llamas y vicuñas; del paso andino más alto del país y de varias ruinas de pueblos de raíces incaicas</p>
+</div>
+</body>
+</html>
